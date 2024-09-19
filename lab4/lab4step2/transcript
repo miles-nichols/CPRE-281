@@ -1,0 +1,42 @@
+# Compile of lab4step2.v was successful.
+# Compile of multiplexer.v was successful.
+# Compile of normal.v was successful.
+# Compile of powersaving.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui work.lab4step2 work.multiplexer work.normal work.powersaving
+# vsim -gui work.lab4step2 work.multiplexer work.normal work.powersaving 
+# Start time: 13:53:12 on Feb 15,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error (suppressible): U:/cpre281/lab4/lab4step2/lab4step2.v(49): (vopt-2912) Port 'F' not found in module 'powersaving' (4th connection).
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=1, Warnings=0.
+# Error loading design
+# End time: 13:53:16 on Feb 15,2024, Elapsed time: 0:00:04
+# Errors: 1, Warnings: 5
+# Compile of lab4step2.v was successful.
+# Compile of multiplexer.v was successful.
+# Compile of normal.v was successful.
+# Compile of powersaving.v was successful.
+# 4 compiles, 0 failed with no errors.
+# Compile of lab4step2.v was successful.
+# Compile of multiplexer.v was successful.
+# Compile of normal.v was successful.
+# Compile of powersaving.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui work.lab4step2 work.multiplexer work.normal work.powersaving
+# vsim -gui work.lab4step2 work.multiplexer work.normal work.powersaving 
+# Start time: 13:56:04 on Feb 15,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.lab4step2(fast)
+# Loading work.multiplexer(fast)
+# Loading work.normal(fast)
+# Loading work.powersaving(fast)
+add wave -position insertpoint  \
+sim:/lab4step2/P \
+sim:/lab4step2/H \
+sim:/lab4step2/T \
+sim:/lab4step2/M \
+sim:/lab4step2/AC
+do lab4step2.do
+# End time: 13:58:35 on Feb 15,2024, Elapsed time: 0:02:31
+# Errors: 0, Warnings: 7

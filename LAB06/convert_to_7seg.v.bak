@@ -1,0 +1,29 @@
+module convert_to_7seg(
+    input [7:0] adder_output,
+    output reg [7:0] {N2X3, N2X2, N2X1, N2X0}
+);
+
+reg [3:0] tens_digit;
+reg [3:0] ones_digit;
+
+always @* begin
+    tens_digit = adder_output[7:4];
+    ones_digit = adder_output[3:0];
+
+    case(tens_digit)
+        4'b0000: {N2X3, N2X2, N2X1, N2X0} = 8'b11000000; // Digit 0
+        4'b0001: {N2X3, N2X2, N2X1, N2X0} = 8'b11111001; // Digit 1
+        // Add cases for digits 2-9 as needed
+        default: {N2X3, N2X2, N2X1, N2X0} = 8'b11111111; // Blank display
+    endcase
+
+    case(ones_digit)
+        4'b0000: {N2X3, N2X2, N2X1, N2X0} = {N2X3, N2X2, N2X1, N2X0} & 8'b00111111; // Digit 0
+        4'b0001: {N2X3, N2X2, N2X1, N2X0} = {N2X3, N2X2, N2X1, N2X0} & 8'b00000110; // Digit 1
+        // Add cases for digits 2-9 as needed
+        default: {N2X3, N2X2, N2X1, N2X0} = {N2X3, N2X2, N2X1, N2X0} & 8'b11111111; // Blank display
+    endcase
+end
+
+endmodule
+

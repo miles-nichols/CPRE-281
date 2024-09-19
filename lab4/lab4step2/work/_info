@@ -1,0 +1,122 @@
+m255
+K4
+z2
+Z0 !s12c _opt
+Z1 !s99 nomlopt
+R0
+R1
+!s11f vlog 2023.2 2023.04, Apr 11 2023
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dU:/cpre281/lab4
+T_opt
+!s110 1708026964
+VNFU^1Dl4h<7fET0]gBaVY0
+04 9 4 work lab4step2 fast 0
+04 11 4 work multiplexer fast 0
+04 6 4 work normal fast 0
+04 11 4 work powersaving fast 0
+=1-b07b25278e37-65ce6c54-1c3-2f8c
+R1
+!s12b OEM100
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+OL;O;2023.2;77
+vlab4step2
+2U:/cpre281/lab4/lab4step2/lab4step2.v
+Z3 !s110 1708026944
+!i10b 1
+!s100 1EOlkeNS64jaSa6XfLnXA2
+IQ^N1NI1D7nkl`dHY6GZPL2
+Z4 dU:/cpre281/lab4/lab4step2
+w1708026716
+8U:/cpre281/lab4/lab4step2/lab4step2.v
+FU:/cpre281/lab4/lab4step2/lab4step2.v
+!i122 22
+L0 20 44
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 OL;L;2023.2;77
+r1
+!s85 0
+31
+Z7 !s108 1708026944.000000
+!s107 U:/cpre281/lab4/lab4step2/lab4step2.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|U:/cpre281/lab4/lab4step2/lab4step2.v|
+!i113 0
+Z8 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vmultiplexer
+2U:/cpre281/lab4/lab4step2/multiplexer.v
+R3
+!i10b 1
+!s100 [RFh3YQ2_zDbg2Beeee]n3
+IAgR2m]o`I=Ei^aE6N6c@<2
+R4
+w1708025208
+8U:/cpre281/lab4/lab4step2/multiplexer.v
+FU:/cpre281/lab4/lab4step2/multiplexer.v
+!i122 23
+L0 25 24
+R5
+R6
+r1
+!s85 0
+31
+R7
+!s107 U:/cpre281/lab4/lab4step2/multiplexer.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|U:/cpre281/lab4/lab4step2/multiplexer.v|
+!i113 0
+R8
+R2
+vnormal
+2U:/cpre281/lab4/lab4step2/normal.v
+Z9 !s110 1708026945
+!i10b 1
+!s100 O0VG8heSeMh[;[8fZC;YW0
+IUjYdz5YC=dHIQb;ThmVLN0
+R4
+w1708024049
+8U:/cpre281/lab4/lab4step2/normal.v
+FU:/cpre281/lab4/lab4step2/normal.v
+!i122 24
+Z10 L0 25 18
+R5
+R6
+r1
+!s85 0
+31
+Z11 !s108 1708026945.000000
+!s107 U:/cpre281/lab4/lab4step2/normal.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|U:/cpre281/lab4/lab4step2/normal.v|
+!i113 0
+R8
+R2
+vpowersaving
+2U:/cpre281/lab4/powersaving.v
+R9
+!i10b 1
+!s100 h9X4DTX06mMZS;ge9VRLZ0
+ITaSR8Z_MZ][L:>VHL8Mm72
+R4
+w1708026438
+8U:/cpre281/lab4/powersaving.v
+FU:/cpre281/lab4/powersaving.v
+!i122 25
+R10
+R5
+R6
+r1
+!s85 0
+31
+R11
+!s107 U:/cpre281/lab4/powersaving.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|U:/cpre281/lab4/powersaving.v|
+!i113 0
+R8
+R2

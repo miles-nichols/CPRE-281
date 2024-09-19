@@ -1,0 +1,33 @@
+# Compile of lab3step2.v failed with 2 errors.
+# Compile of lab3step2.v failed with 2 errors.
+# Compile of lab3step2.v was successful.
+vsim -gui work.lab3step2
+# vsim -gui work.lab3step2 
+# Start time: 14:03:25 on Feb 08,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.lab3step2(fast)
+vsim -gui work.lab3step2
+# End time: 14:05:43 on Feb 08,2024, Elapsed time: 0:02:18
+# Errors: 0, Warnings: 7
+# vsim -gui work.lab3step2 
+# Start time: 14:05:43 on Feb 08,2024
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.lab3step2(fast)
+add wave -position insertpoint sim:/lab3step2/*
+do basic-alarm.do
+# ** UI-Msg (Error) (suppressible): (vsim-4008) Object 'C' not found.
+# Error in macro ./basic-alarm.do line 1
+# ** UI-Msg (Error) (suppressible): (vsim-4008) Object 'C' not found.
+# 
+#     while executing
+# "force C 0 0, 1 200 -repeat 400"
+do basic-alarm.do
+# ** UI-Msg (Error) (suppressible): (vsim-4008) Object 'C' not found.
+# Error in macro ./basic-alarm.do line 1
+# ** UI-Msg (Error) (suppressible): (vsim-4008) Object 'C' not found.
+# 
+#     while executing
+# "force C 0 0, 1 200 -repeat 400"
+do basic-alarm.do
+# End time: 14:16:17 on Feb 08,2024, Elapsed time: 0:10:34
+# Errors: 0, Warnings: 1

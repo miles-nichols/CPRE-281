@@ -1,0 +1,37 @@
+# Compile of finalStep.v was successful.
+# Compile of mux4to1.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.finalStep
+# vsim -gui work.finalStep 
+# Start time: 14:02:24 on Mar 28,2024
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading work.finalStep(fast)
+add wave -position insertpoint  \
+sim:/finalStep/W0 \
+sim:/finalStep/W1 \
+sim:/finalStep/W2 \
+sim:/finalStep/W3 \
+sim:/finalStep/xc1 \
+sim:/finalStep/xc2 \
+sim:/finalStep/xc3 \
+sim:/finalStep/S \
+sim:/finalStep/F
+do shifter.do
+do shifter.do
+quit -sim
+# End time: 14:06:08 on Mar 28,2024, Elapsed time: 0:03:44
+# Errors: 0, Warnings: 5
+# Load canceled
+# Compile of finalStep.v was successful.
+# Compile of mux4to1.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.finalStep
+# vsim -gui work.finalStep 
+# Start time: 14:07:18 on Mar 28,2024
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading work.finalStep(fast)
+add wave -r sim:/finalStep/*
+do shifter.do
+do shifter.do
+# End time: 14:10:14 on Mar 28,2024, Elapsed time: 0:02:56
+# Errors: 0, Warnings: 2

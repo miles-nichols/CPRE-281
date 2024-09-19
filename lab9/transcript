@@ -1,0 +1,199 @@
+# Compile of step3.v was successful.
+vsim -gui work.step3
+# vsim -gui work.step3 
+# Start time: 13:25:35 on Apr 04,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: U:/cpre281/lab9/step3.v(40): (vopt-2685) [TFMPC] - Too few port connections for 'b2v_inst'.  Expected 4, found 3.
+# ** Warning: U:/cpre281/lab9/step3.v(40): (vopt-2718) [TFMPC] - Missing connection for port 'Qn'.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=2.
+# Loading work.step3(fast)
+add wave -position insertpoint  \
+sim:/step3/D \
+sim:/step3/Clk \
+sim:/step3/Q \
+sim:/step3/Qn
+force -freeze Clk 0 0
+force -freeze D 0 0
+run 25
+
+force -freeze Clk 1 0
+force -freeze D 0 0
+run 25
+
+force -freeze Clk 0 0
+force -freeze D 0 0
+run 25
+
+force -freeze Clk 0 0
+force -freeze D 1 0
+run 25
+
+force -freeze Clk 1 0
+force -freeze D 1 0
+run 25
+
+force -freeze Clk 1 0
+force -freeze D 1 0
+run 25
+
+force -freeze Clk 0 0
+force -freeze D 1 0
+run 25
+
+force -freeze Clk 0 0
+force -freeze D 0 0
+run 25
+
+force -freeze Clk 0 0
+force -freeze D 0 0
+run 25
+
+force -freeze Clk 1 0
+force -freeze D 0 0
+run 25
+
+force -freeze Clk 1 0
+force -freeze D 0 0
+run 25
+
+force -freeze Clk 0 0
+force -freeze D 0 0
+run 25
+
+force -freeze Clk 0 0
+force -freeze D 1 0
+run 25
+
+force -freeze Clk 0 0
+force -freeze D 1 0
+run 25
+
+force -freeze Clk 1 0
+force -freeze D 1 0
+run 25
+
+force -freeze Clk 1 0
+force -freeze D 0 0
+run 25
+
+force -freeze Clk 0 0
+force -freeze D 0 0
+run 25
+
+force -freeze Clk 0 0
+force -freeze D 1 0
+run 25
+
+force -freeze Clk 0 0
+force -freeze D 0 0
+run 25
+
+force -freeze Clk 1 0
+force -freeze D 0 0
+run 25
+
+force -freeze Clk 1 0
+force -freeze D 1 0
+run 25
+
+force -freeze Clk 0 0
+force -freeze D 1 0
+run 25
+
+force -freeze Clk 0 0
+force -freeze D 0 0
+run 25
+
+
+force -freeze Clk 0 0
+force -freeze D 0 0
+run 25
+
+force -freeze Clk 1 0
+force -freeze D 0 0
+run 25
+
+force -freeze Clk 0 0
+force -freeze D 0 0
+run 25
+
+force -freeze Clk 0 0
+force -freeze D 1 0
+run 25
+
+force -freeze Clk 1 0
+force -freeze D 1 0
+run 25
+
+force -freeze Clk 1 0
+force -freeze D 1 0
+run 25
+
+force -freeze Clk 0 0
+force -freeze D 1 0
+run 25
+
+force -freeze Clk 0 0
+force -freeze D 0 0
+run 25
+
+force -freeze Clk 0 0
+force -freeze D 0 0
+run 25
+
+force -freeze Clk 1 0
+force -freeze D 0 0
+run 25
+
+force -freeze Clk 1 0
+force -freeze D 0 0
+run 25
+
+force -freeze Clk 0 0
+force -freeze D 0 0
+run 25
+
+force -freeze Clk 0 0
+force -freeze D 1 0
+run 25
+
+force -freeze Clk 0 0
+force -freeze D 1 0
+run 25
+
+force -freeze Clk 1 0
+force -freeze D 1 0
+run 25
+
+force -freeze Clk 1 0
+force -freeze D 0 0
+run 25
+
+force -freeze Clk 0 0
+force -freeze D 0 0
+run 25
+
+force -freeze Clk 0 0
+force -freeze D 1 0
+run 25
+
+force -freeze Clk 0 0
+force -freeze D 0 0
+run 25
+
+force -freeze Clk 1 0
+force -freeze D 0 0
+run 25
+
+force -freeze Clk 1 0
+force -freeze D 1 0
+run 25
+
+force -freeze Clk 0 0
+force -freeze D 1 0
+run 25
+
+force -freeze Clk 0 0
+force -freeze D 0 0
+run 25
+

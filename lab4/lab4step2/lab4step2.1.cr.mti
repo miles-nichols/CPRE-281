@@ -1,0 +1,22 @@
+U:/cpre281/lab4/lab4step2/normal.v {1 {vlog -work work -vopt -stats=none U:/cpre281/lab4/lab4step2/normal.v
+QuestaSim-64 vlog 2023.2 Compiler 2023.04 Apr 11 2023
+-- Compiling module normal
+
+Top level modules:
+	normal
+
+} {} {}} U:/cpre281/lab4/lab4step2/powersaving.v {1 {vlog -work work -vopt -stats=none U:/cpre281/lab4/lab4step2/powersaving.v
+QuestaSim-64 vlog 2023.2 Compiler 2023.04 Apr 11 2023
+-- Compiling module powersaving
+
+Top level modules:
+	powersaving
+
+} {} {}} U:/cpre281/lab4/lab4step2/multiplexer.v {1 {vlog -work work -vopt -stats=none U:/cpre281/lab4/lab4step2/multiplexer.v
+QuestaSim-64 vlog 2023.2 Compiler 2023.04 Apr 11 2023
+-- Compiling module multiplexer
+
+Top level modules:
+	multiplexer
+
+} {} {}}

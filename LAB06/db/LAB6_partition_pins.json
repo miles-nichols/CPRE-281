@@ -1,0 +1,153 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "output1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "output1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "output1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "output1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "output1[4]",
+					"strict" : false
+				},
+				{
+					"name" : "output1[5]",
+					"strict" : false
+				},
+				{
+					"name" : "output1[6]",
+					"strict" : false
+				},
+				{
+					"name" : "output2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "output2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "output2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "output2[4]",
+					"strict" : false
+				},
+				{
+					"name" : "output2[5]",
+					"strict" : false
+				},
+				{
+					"name" : "output2[6]",
+					"strict" : false
+				},
+				{
+					"name" : "output3[0]",
+					"strict" : false
+				},
+				{
+					"name" : "output3[1]",
+					"strict" : false
+				},
+				{
+					"name" : "output3[2]",
+					"strict" : false
+				},
+				{
+					"name" : "output3[3]",
+					"strict" : false
+				},
+				{
+					"name" : "output3[4]",
+					"strict" : false
+				},
+				{
+					"name" : "output3[5]",
+					"strict" : false
+				},
+				{
+					"name" : "output3[6]",
+					"strict" : false
+				},
+				{
+					"name" : "output4[0]",
+					"strict" : false
+				},
+				{
+					"name" : "output4[1]",
+					"strict" : false
+				},
+				{
+					"name" : "output4[2]",
+					"strict" : false
+				},
+				{
+					"name" : "output4[3]",
+					"strict" : false
+				},
+				{
+					"name" : "output4[4]",
+					"strict" : false
+				},
+				{
+					"name" : "output4[5]",
+					"strict" : false
+				},
+				{
+					"name" : "output4[6]",
+					"strict" : false
+				},
+				{
+					"name" : "pin_name4",
+					"strict" : false
+				},
+				{
+					"name" : "pin_name7",
+					"strict" : false
+				},
+				{
+					"name" : "pin_name8",
+					"strict" : false
+				},
+				{
+					"name" : "pin_name3",
+					"strict" : false
+				},
+				{
+					"name" : "pin_name6",
+					"strict" : false
+				},
+				{
+					"name" : "pin_name2",
+					"strict" : false
+				},
+				{
+					"name" : "pin_name5",
+					"strict" : false
+				},
+				{
+					"name" : "pin_name1",
+					"strict" : false
+				},
+				{
+					"name" : "pin5",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

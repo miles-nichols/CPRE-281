@@ -1,0 +1,29 @@
+# Compile of bitRippleCarryAdder.v was successful.
+# Compile of finalStep.v was successful.
+# Compile of lab7.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui work.finalStep
+# vsim -gui work.finalStep 
+# Start time: 15:03:42 on Mar 21,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.finalStep(fast)
+add wave -position insertpoint  \
+sim:/finalStep/CONTROL \
+sim:/finalStep/Y0 \
+sim:/finalStep/X0 \
+sim:/finalStep/Y1 \
+sim:/finalStep/X1 \
+sim:/finalStep/Y2 \
+sim:/finalStep/X2 \
+sim:/finalStep/Y3 \
+sim:/finalStep/X3 \
+sim:/finalStep/S1 \
+sim:/finalStep/S0 \
+sim:/finalStep/Cout \
+sim:/finalStep/S3 \
+sim:/finalStep/S2 \
+sim:/finalStep/Overflow
+do do.do
+do do.do
+# End time: 15:05:34 on Mar 21,2024, Elapsed time: 0:01:52
+# Errors: 0, Warnings: 6

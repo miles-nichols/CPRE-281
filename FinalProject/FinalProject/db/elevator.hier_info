@@ -1,0 +1,227 @@
+|comparatorTest
+A <= seven_seg_decoder:inst5.A
+Data0 => registerFile:inst1.Data0
+Data1 => registerFile:inst1.Data1
+Clock => registerFile:inst1.Clock
+Clock => upDownFSM:inst8.Clock
+Clear => registerFile:inst1.Clear
+WriteEnable => registerFile:inst1.WriteEnable
+WriteAddress => registerFile:inst1.WriteAddress
+ReadAddress => registerFile:inst1.ReadAddress
+B <= seven_seg_decoder:inst5.B
+C <= seven_seg_decoder:inst5.C
+D <= seven_seg_decoder:inst5.D
+E <= seven_seg_decoder:inst5.E
+F <= seven_seg_decoder:inst5.F
+G <= seven_seg_decoder:inst5.G
+R1A <= registerFile:inst1.R1A
+R1B <= registerFile:inst1.R1B
+R1C <= registerFile:inst1.R1C
+R1D <= registerFile:inst1.R1D
+R1E <= registerFile:inst1.R1E
+R1F <= registerFile:inst1.R1F
+R1G <= registerFile:inst1.R1G
+R0A <= registerFile:inst1.R0A
+R0B <= registerFile:inst1.R0B
+R0C <= registerFile:inst1.R0C
+R0D <= registerFile:inst1.R0D
+R0E <= registerFile:inst1.R0E
+R0F <= registerFile:inst1.R0F
+R0G <= registerFile:inst1.R0G
+gt <= comparator_2bit:inst.gt
+lt <= comparator_2bit:inst.lt
+Enable <= comparator_2bit:inst.eq
+
+
+|comparatorTest|seven_seg_decoder:inst5
+x3 => Decoder0.IN0
+x2 => Decoder0.IN1
+x1 => Decoder0.IN2
+x0 => Decoder0.IN3
+A <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+B <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+C <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+D <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+E <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+F <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+G <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|comparatorTest|upDownFSM:inst8
+Out1 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+Clock => inst.CLK
+Clock => inst1.CLK
+w => inst44.IN0
+w => inst50.IN0
+w => inst49.IN0
+w => inst48.IN0
+WriteEnable => inst20.IN0
+WriteEnable => inst51.IN0
+WriteEnable => inst49.IN1
+WriteEnable => inst48.IN1
+Out0 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|comparatorTest|comparator_2bit:inst
+num1_bit0 => eq.IN0
+num1_bit0 => LessThan1.IN1
+num1_bit0 => LessThan3.IN1
+num1_bit1 => eq.IN0
+num1_bit1 => LessThan0.IN1
+num1_bit1 => LessThan2.IN1
+num2_bit0 => eq.IN1
+num2_bit0 => LessThan1.IN2
+num2_bit0 => LessThan3.IN2
+num2_bit1 => eq.IN1
+num2_bit1 => LessThan0.IN2
+num2_bit1 => LessThan2.IN2
+eq <= eq.DB_MAX_OUTPUT_PORT_TYPE
+gt <= gt.DB_MAX_OUTPUT_PORT_TYPE
+lt <= lt.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|comparatorTest|registerFile:inst1
+Output1 <= mux_2to1:inst5.out
+ReadAddress => inst10.IN0
+WriteEnable => OneToTwoDecoder:inst4.Enable
+WriteAddress => inst9.IN0
+Data0 => register:inst1.In
+Data0 => register:inst.In
+Clock => register:inst1.Clock
+Clock => register:inst.Clock
+Clock => register:inst3.Clock
+Clock => register:inst2.Clock
+Clear => register:inst1.CLRN
+Clear => register:inst.CLRN
+Clear => register:inst3.CLRN
+Clear => register:inst2.CLRN
+Output0 <= mux_2to1:inst6.out
+Data1 => register:inst3.In
+Data1 => register:inst2.In
+R1A <= seven_seg_decoder:inst7.A
+R1B <= seven_seg_decoder:inst7.B
+R1C <= seven_seg_decoder:inst7.C
+R1D <= seven_seg_decoder:inst7.D
+R1E <= seven_seg_decoder:inst7.E
+R1F <= seven_seg_decoder:inst7.F
+R1G <= seven_seg_decoder:inst7.G
+R0A <= seven_seg_decoder:inst12.A
+R0B <= seven_seg_decoder:inst12.B
+R0C <= seven_seg_decoder:inst12.C
+R0D <= seven_seg_decoder:inst12.D
+R0E <= seven_seg_decoder:inst12.E
+R0F <= seven_seg_decoder:inst12.F
+R0G <= seven_seg_decoder:inst12.G
+
+
+|comparatorTest|registerFile:inst1|mux_2to1:inst5
+sel => out.OUTPUTSELECT
+data0 => out.DATAB
+data1 => out.DATAA
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|comparatorTest|registerFile:inst1|register:inst1
+Out <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLRN => inst.ACLR
+Clock => inst.CLK
+Load => mux_2to1:inst2.sel
+In => mux_2to1:inst2.data1
+
+
+|comparatorTest|registerFile:inst1|register:inst1|mux_2to1:inst2
+sel => out.OUTPUTSELECT
+data0 => out.DATAB
+data1 => out.DATAA
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|comparatorTest|registerFile:inst1|OneToTwoDecoder:inst4
+Out1 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+Enable => inst.IN0
+Enable => inst1.IN0
+In => inst.IN1
+In => inst2.IN0
+Out0 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|comparatorTest|registerFile:inst1|register:inst
+Out <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLRN => inst.ACLR
+Clock => inst.CLK
+Load => mux_2to1:inst2.sel
+In => mux_2to1:inst2.data1
+
+
+|comparatorTest|registerFile:inst1|register:inst|mux_2to1:inst2
+sel => out.OUTPUTSELECT
+data0 => out.DATAB
+data1 => out.DATAA
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|comparatorTest|registerFile:inst1|mux_2to1:inst6
+sel => out.OUTPUTSELECT
+data0 => out.DATAB
+data1 => out.DATAA
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|comparatorTest|registerFile:inst1|register:inst3
+Out <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLRN => inst.ACLR
+Clock => inst.CLK
+Load => mux_2to1:inst2.sel
+In => mux_2to1:inst2.data1
+
+
+|comparatorTest|registerFile:inst1|register:inst3|mux_2to1:inst2
+sel => out.OUTPUTSELECT
+data0 => out.DATAB
+data1 => out.DATAA
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|comparatorTest|registerFile:inst1|register:inst2
+Out <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLRN => inst.ACLR
+Clock => inst.CLK
+Load => mux_2to1:inst2.sel
+In => mux_2to1:inst2.data1
+
+
+|comparatorTest|registerFile:inst1|register:inst2|mux_2to1:inst2
+sel => out.OUTPUTSELECT
+data0 => out.DATAB
+data1 => out.DATAA
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|comparatorTest|registerFile:inst1|seven_seg_decoder:inst7
+x3 => Decoder0.IN0
+x2 => Decoder0.IN1
+x1 => Decoder0.IN2
+x0 => Decoder0.IN3
+A <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+B <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+C <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+D <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+E <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+F <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+G <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|comparatorTest|registerFile:inst1|seven_seg_decoder:inst12
+x3 => Decoder0.IN0
+x2 => Decoder0.IN1
+x1 => Decoder0.IN2
+x0 => Decoder0.IN3
+A <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+B <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+C <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+D <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+E <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+F <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+G <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+
+

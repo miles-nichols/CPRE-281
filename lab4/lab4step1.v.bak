@@ -1,0 +1,26 @@
+module lab4step1(A,F,C,G,W);
+	input(F,C,G,W);
+	output(A);
+	always @(F or C or G or W)
+	begin
+		case({F,C,G,W})
+			4'0000: A='b0;
+			4'0001: A='b0;
+			4'0010: A='b0;
+			4'0011: A='b1;
+			4'0100: A='b0;
+			4'0101: A='b0;
+			4'0110: A='b1;
+			4'0111: A='b1;
+			4'1000: A='b1;
+			4'1001: A='b1;
+			4'1010: A='b0;
+			4'1011: A='b0;
+			4'1100: A='b1;
+			4'1101: A='b0;
+			4'1110: A='b0;
+			4'1111: A='b0;
+		endcase
+	end
+endmodule
+		

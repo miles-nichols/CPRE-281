@@ -1,0 +1,203 @@
+m255
+K4
+z2
+Z0 !s12c _opt2
+Z1 !s99 nomlopt
+Z2 !s12c _opt1
+R1
+Z3 !s12c _opt
+R1
+R0
+R1
+R2
+R1
+R3
+R1
+!s11f vlog 2023.2 2023.04, Apr 11 2023
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z4 dC:/questasim64_2023.2/examples
+T_opt
+!s110 1712253827
+V_Z6KmUND5?NS1]aAU;>2a1
+04 7 4 work SRlatch fast 0
+=1-b07b25278e37-660eeb82-1f3-2ce8
+R1
+Z5 !s12b OEM100
+Z6 !s124 OEM100
+Z7 o-quiet -auto_acc_if_foreign -work work
+Z8 tCvgOpt 0
+n@_opt
+Z9 OL;O;2023.2;77
+R4
+T_opt1
+!s110 1712254806
+V:L`R`7TzdMD87AGYgCUJ;1
+04 10 4 work realDlatch fast 0
+=1-b07b25278e37-660eef56-78-3154
+R1
+R5
+R6
+R7
+R8
+n@_opt1
+R9
+R4
+T_opt2
+!s110 1712255136
+V5oVEk6gCWe[VMCoAKbGL<2
+04 5 4 work step3 fast 0
+=1-b07b25278e37-660ef0a0-45-22cc
+R1
+R5
+R6
+R7
+R8
+n@_opt2
+R9
+vgatedDLatch
+2U:/cpre281/lab9/gatedDLatch.v
+!s110 1712254514
+!i10b 1
+!s100 KQU]fYJiU4<B:1?9<bR>z0
+I30^AzgTGeXRn8fe2^DRoL1
+Z10 dU:/cpre281/lab9
+w1712254479
+8U:/cpre281/lab9/gatedDLatch.v
+FU:/cpre281/lab9/gatedDLatch.v
+!i122 6
+L0 20 39
+Z11 VDg1SIo80bB@j0V0VzS_@n1
+Z12 OL;L;2023.2;77
+r1
+!s85 0
+31
+!s108 1712254514.000000
+!s107 U:/cpre281/lab9/gatedDLatch.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|U:/cpre281/lab9/gatedDLatch.v|
+!i113 0
+Z13 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R8
+ngated@d@latch
+vproject9
+2U:/cpre281/lab9/project9.v
+!s110 1712251818
+!i10b 1
+!s100 [I3SR=66CDKho@7^<dgE33
+IzGWJKNdUmk1ABCX0ORaoa2
+R10
+w1712251772
+8U:/cpre281/lab9/project9.v
+FU:/cpre281/lab9/project9.v
+!i122 0
+Z14 L0 20 27
+R11
+R12
+r1
+!s85 0
+31
+!s108 1712251818.000000
+!s107 U:/cpre281/lab9/project9.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|U:/cpre281/lab9/project9.v|
+!i113 0
+R13
+R8
+vrealDlatch
+2U:/cpre281/lab9/realDlatch.v
+!s110 1712254790
+!i10b 1
+!s100 oWJ:=iXe`deEE2>6Vmf9:3
+IO?K3PHRBKT;Qilf[P1O[63
+R10
+w1712254710
+8U:/cpre281/lab9/realDlatch.v
+FU:/cpre281/lab9/realDlatch.v
+!i122 7
+L0 20 36
+R11
+R12
+r1
+!s85 0
+31
+!s108 1712254790.000000
+!s107 U:/cpre281/lab9/realDlatch.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|U:/cpre281/lab9/realDlatch.v|
+!i113 0
+R13
+R8
+nreal@dlatch
+vSRlatch
+2U:/cpre281/lab9/SRlatch.v
+!s110 1712253816
+!i10b 1
+!s100 l5MY;i^CoCEIVni6bhSl;2
+INO4Sd^]eV3OIXCPWJHh7;1
+R10
+w1712253704
+8U:/cpre281/lab9/SRlatch.v
+FU:/cpre281/lab9/SRlatch.v
+!i122 4
+R14
+R11
+R12
+r1
+!s85 0
+31
+!s108 1712253816.000000
+!s107 U:/cpre281/lab9/SRlatch.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|U:/cpre281/lab9/SRlatch.v|
+!i113 0
+R13
+R8
+n@s@rlatch
+vSRnorLatch5
+2U:/cpre281/lab9/SRnorLatch5.v
+!s110 1712253213
+!i10b 1
+!s100 Q<:lim8^4^>l<jP;PJ5jT1
+I?k80aZCnaa5zdk70LFfn91
+R10
+w1712252990
+8U:/cpre281/lab9/SRnorLatch5.v
+FU:/cpre281/lab9/SRnorLatch5.v
+!i122 2
+L0 20 33
+R11
+R12
+r1
+!s85 0
+31
+!s108 1712253211.000000
+!s107 U:/cpre281/lab9/SRnorLatch5.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|U:/cpre281/lab9/SRnorLatch5.v|
+!i113 0
+R13
+R8
+n@s@rnor@latch5
+vstep3
+2U:/cpre281/lab9/step3.v
+!s110 1712255116
+!i10b 1
+!s100 9M60;hHGX2f?DX56LZBD@3
+IHeJK1ZP[4iZTV4n:6VWeQ2
+R10
+w1712255070
+8U:/cpre281/lab9/step3.v
+FU:/cpre281/lab9/step3.v
+!i122 8
+L0 20 37
+R11
+R12
+r1
+!s85 0
+31
+!s108 1712255116.000000
+!s107 U:/cpre281/lab9/step3.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|U:/cpre281/lab9/step3.v|
+!i113 0
+R13
+R8

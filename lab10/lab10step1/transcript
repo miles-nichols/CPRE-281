@@ -1,0 +1,42 @@
+# Compile of lab10step2b.v was successful.
+vsim -gui work.lab10step2b
+# vsim -gui work.lab10step2b 
+# Start time: 13:26:38 on Apr 11,2024
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.lab10step2b(fast)
+quit -sim
+vsim -gui work.lab10step2b
+# End time: 13:27:05 on Apr 11,2024, Elapsed time: 0:00:27
+# Errors: 0, Warnings: 6
+# vsim -gui work.lab10step2b 
+# Start time: 13:27:05 on Apr 11,2024
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.lab10step2b(fast)
+add wave -position insertpoint  \
+sim:/lab10step2b/Enable \
+sim:/lab10step2b/Clock \
+sim:/lab10step2b/CLRN \
+sim:/lab10step2b/Z \
+sim:/lab10step2b/Q3 \
+sim:/lab10step2b/Q2 \
+sim:/lab10step2b/Q1 \
+sim:/lab10step2b/Q0
+add wave -position insertpoint  \
+sim:/lab10step2b/Enable \
+sim:/lab10step2b/Clock \
+sim:/lab10step2b/CLRN \
+sim:/lab10step2b/Z \
+sim:/lab10step2b/Q3 \
+sim:/lab10step2b/Q2 \
+sim:/lab10step2b/Q1 \
+sim:/lab10step2b/Q0
+# reset our counter
+force CLRN 0 0, 1 20
+
+# now observe the count
+force Clock 0 0, 1 50 -repeat 100
+force Enable 0 0, 1 100, 0 1900, 1 2100
+
+run 2400 
+# End time: 13:30:53 on Apr 11,2024, Elapsed time: 0:03:48
+# Errors: 0, Warnings: 1

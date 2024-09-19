@@ -1,0 +1,121 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "A",
+					"strict" : false
+				},
+				{
+					"name" : "C",
+					"strict" : false
+				},
+				{
+					"name" : "D",
+					"strict" : false
+				},
+				{
+					"name" : "E",
+					"strict" : false
+				},
+				{
+					"name" : "F",
+					"strict" : false
+				},
+				{
+					"name" : "G",
+					"strict" : false
+				},
+				{
+					"name" : "R1A",
+					"strict" : false
+				},
+				{
+					"name" : "R1C",
+					"strict" : false
+				},
+				{
+					"name" : "R1D",
+					"strict" : false
+				},
+				{
+					"name" : "R1E",
+					"strict" : false
+				},
+				{
+					"name" : "R1F",
+					"strict" : false
+				},
+				{
+					"name" : "R1G",
+					"strict" : false
+				},
+				{
+					"name" : "R0A",
+					"strict" : false
+				},
+				{
+					"name" : "R0C",
+					"strict" : false
+				},
+				{
+					"name" : "R0D",
+					"strict" : false
+				},
+				{
+					"name" : "R0E",
+					"strict" : false
+				},
+				{
+					"name" : "R0F",
+					"strict" : false
+				},
+				{
+					"name" : "R0G",
+					"strict" : false
+				},
+				{
+					"name" : "gt",
+					"strict" : false
+				},
+				{
+					"name" : "lt",
+					"strict" : false
+				},
+				{
+					"name" : "Enable",
+					"strict" : false
+				},
+				{
+					"name" : "ReadAddress",
+					"strict" : false
+				},
+				{
+					"name" : "Clock",
+					"strict" : false
+				},
+				{
+					"name" : "Data1",
+					"strict" : false
+				},
+				{
+					"name" : "Clear",
+					"strict" : false
+				},
+				{
+					"name" : "WriteEnable",
+					"strict" : false
+				},
+				{
+					"name" : "WriteAddress",
+					"strict" : false
+				},
+				{
+					"name" : "Data0",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

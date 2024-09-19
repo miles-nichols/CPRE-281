@@ -1,0 +1,89 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'Board'
+Slack : -1.619
+TNS   : -5.517
+
+Type  : Slow 1200mV 85C Model Setup 'clock_divider_1024:inst|inst10'
+Slack : -1.561
+TNS   : -5.860
+
+Type  : Slow 1200mV 85C Model Hold 'Board'
+Slack : 0.356
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clock_divider_1024:inst|inst10'
+Slack : 0.357
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Board'
+Slack : -3.000
+TNS   : -13.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clock_divider_1024:inst|inst10'
+Slack : -1.000
+TNS   : -10.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clock_divider_1024:cece|inst10'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 0C Model Setup 'Board'
+Slack : -1.344
+TNS   : -3.955
+
+Type  : Slow 1200mV 0C Model Setup 'clock_divider_1024:inst|inst10'
+Slack : -1.285
+TNS   : -4.403
+
+Type  : Slow 1200mV 0C Model Hold 'Board'
+Slack : 0.310
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'clock_divider_1024:inst|inst10'
+Slack : 0.311
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Board'
+Slack : -3.000
+TNS   : -13.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clock_divider_1024:inst|inst10'
+Slack : -1.000
+TNS   : -10.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clock_divider_1024:cece|inst10'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Setup 'Board'
+Slack : -0.479
+TNS   : -0.479
+
+Type  : Fast 1200mV 0C Model Setup 'clock_divider_1024:inst|inst10'
+Slack : -0.445
+TNS   : -0.509
+
+Type  : Fast 1200mV 0C Model Hold 'clock_divider_1024:inst|inst10'
+Slack : 0.158
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'Board'
+Slack : 0.186
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Board'
+Slack : -3.000
+TNS   : -13.650
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clock_divider_1024:inst|inst10'
+Slack : -1.000
+TNS   : -10.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clock_divider_1024:cece|inst10'
+Slack : -1.000
+TNS   : -1.000
+
+------------------------------------------------------------

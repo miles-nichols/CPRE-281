@@ -1,0 +1,77 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "out[0]",
+					"strict" : false
+				},
+				{
+					"name" : "out[1]",
+					"strict" : false
+				},
+				{
+					"name" : "out[2]",
+					"strict" : false
+				},
+				{
+					"name" : "out[3]",
+					"strict" : false
+				},
+				{
+					"name" : "out[4]",
+					"strict" : false
+				},
+				{
+					"name" : "out[5]",
+					"strict" : false
+				},
+				{
+					"name" : "out[6]",
+					"strict" : false
+				},
+				{
+					"name" : "put[0]",
+					"strict" : false
+				},
+				{
+					"name" : "put[1]",
+					"strict" : false
+				},
+				{
+					"name" : "put[2]",
+					"strict" : false
+				},
+				{
+					"name" : "put[3]",
+					"strict" : false
+				},
+				{
+					"name" : "put[4]",
+					"strict" : false
+				},
+				{
+					"name" : "put[5]",
+					"strict" : false
+				},
+				{
+					"name" : "put[6]",
+					"strict" : false
+				},
+				{
+					"name" : "W",
+					"strict" : false
+				},
+				{
+					"name" : "Manual_Clock",
+					"strict" : false
+				},
+				{
+					"name" : "50MHz_Clock",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

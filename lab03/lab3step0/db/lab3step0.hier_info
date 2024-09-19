@@ -1,0 +1,10 @@
+|lab3step0
+f <= inst.DB_MAX_OUTPUT_PORT_TYPE
+C => inst4.IN0
+C => inst2.IN1
+G => inst1.IN1
+G => inst5.IN0
+W => inst6.IN0
+W => inst2.IN2
+
+

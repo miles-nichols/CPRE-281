@@ -1,0 +1,11 @@
+module lab3step1(f, c, g, w);
+	input c, g, w;
+	output f;
+	
+	NOT(nc, c);
+	NOT(ng, g);
+	NOT(nw, w);
+	OR(M, c, ng, w);
+	OR(N, nc, g, nw);
+	AND(f, M, N);
+endmodule

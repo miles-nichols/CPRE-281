@@ -1,0 +1,39 @@
+# Compile of miniProj.v was successful.
+# Compile of mProj2.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.miniProj
+# vsim -gui work.miniProj 
+# Start time: 17:42:36 on Mar 06,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.miniProj(fast)
+quit -sim
+# End time: 17:42:49 on Mar 06,2024, Elapsed time: 0:00:13
+# Errors: 0, Warnings: 9
+vsim -gui work.mProj2
+# vsim -gui work.mProj2 
+# Start time: 17:43:01 on Mar 06,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.mProj2(fast)
+add wave -position insertpoint  \
+sim:/mProj2/W \
+sim:/mProj2/X \
+sim:/mProj2/Y \
+sim:/mProj2/Z \
+sim:/mProj2/P
+force W 0 0, 1 400 repeat 800
+# Invalid time value: 400 repeat
+do Untitled-1.do
+# Cannot open macro file: Untitled-1.do
+do.do
+# couldn't execute ".\do.do": no such file or directory
+do do.do
+./do.do
+# couldn't execute ".\do.do": no such file or directory
+
+force W 0 0, 1 400 -repeat 800 
+force X 0 0, 1 200 -repeat 400 
+force Y 0 0, 1 100 -repeat 200 
+force Z 0 0, 1 50 -repeat 100 
+run 800
+# End time: 17:52:35 on Mar 06,2024, Elapsed time: 0:09:34
+# Errors: 0, Warnings: 1

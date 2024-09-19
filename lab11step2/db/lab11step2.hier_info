@@ -1,0 +1,63 @@
+|lab11step2
+out[6] <= seven_seg_decoder:inst16.LED_OUT[6]
+out[5] <= seven_seg_decoder:inst16.LED_OUT[5]
+out[4] <= seven_seg_decoder:inst16.LED_OUT[4]
+out[3] <= seven_seg_decoder:inst16.LED_OUT[3]
+out[2] <= seven_seg_decoder:inst16.LED_OUT[2]
+out[1] <= seven_seg_decoder:inst16.LED_OUT[1]
+out[0] <= seven_seg_decoder:inst16.LED_OUT[0]
+CLK => clock_generator:inst4.CLK_IN
+w => inst11.IN0
+w => inst14.IN1
+w => inst3.IN1
+w => inst5.IN0
+w => inst7.IN0
+
+
+|lab11step2|seven_seg_decoder:inst16
+x3 => Decoder0.IN0
+x2 => Decoder0.IN1
+x1 => Decoder0.IN2
+x0 => Decoder0.IN3
+LED_OUT[6] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+LED_OUT[5] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+LED_OUT[4] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+LED_OUT[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+LED_OUT[2] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+LED_OUT[1] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+LED_OUT[0] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab11step2|clock_generator:inst4
+CLK_OUT <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+CLK_IN => clock_divider_1024:inst.CLK_IN
+
+
+|lab11step2|clock_generator:inst4|clock_divider_1024:inst8
+CLK_OUT <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+CLK_IN => inst1.CLK
+CLK_IN => inst2.CLK
+CLK_IN => inst3.CLK
+CLK_IN => inst4.CLK
+CLK_IN => inst5.CLK
+CLK_IN => inst6.CLK
+CLK_IN => inst7.CLK
+CLK_IN => inst8.CLK
+CLK_IN => inst9.CLK
+CLK_IN => inst10.CLK
+
+
+|lab11step2|clock_generator:inst4|clock_divider_1024:inst
+CLK_OUT <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+CLK_IN => inst1.CLK
+CLK_IN => inst2.CLK
+CLK_IN => inst3.CLK
+CLK_IN => inst4.CLK
+CLK_IN => inst5.CLK
+CLK_IN => inst6.CLK
+CLK_IN => inst7.CLK
+CLK_IN => inst8.CLK
+CLK_IN => inst9.CLK
+CLK_IN => inst10.CLK
+
+

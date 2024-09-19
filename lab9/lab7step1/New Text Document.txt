@@ -1,0 +1,14 @@
+force X3 
+force X2
+force X1
+force X0
+
+force Y3
+force Y2
+force Y1
+force Y0
+
+Control //one fro subreact
+
+run 50
+
