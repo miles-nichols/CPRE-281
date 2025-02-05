@@ -1,1 +1,1 @@
-My wotk from ISU 281 Digital Logic. 
+My labs from Digital Logic at Iowa State University.
